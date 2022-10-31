@@ -13,7 +13,10 @@
                 exit;
             }
             echo '<form action="valida.php" method="POST" role="form" class="container"> 
-                <h1>¡Bienvenid@!</h1>        
+                <h1>¡Bienvenid@!</h1>   
+                
+                
+                
                 <h2>Login</h2>
                 <div class="alert">';
                     if (isset($_GET['error'])){
